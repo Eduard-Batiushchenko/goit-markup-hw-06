@@ -702,10 +702,6 @@ img {
   align-items: baseline;
 }
 
-/* .footer-section:not(:last-child) {
-  margin-right: 70px;
-} */
-
 .footer-section {
   width: calc((100% - 30px * 3) / 4);
 }
@@ -767,6 +763,23 @@ img {
 
 .sign-in {
   width: 570px;
+}
+
+.button.footer-button {
+  padding-right: 62px;
+}
+
+.button-container {
+  position: relative;
+}
+
+.telegram-icon {
+  position: absolute;
+  top: 50%;
+  right: 28px;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
 }
 
 /* Portfolio buttons */
